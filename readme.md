@@ -5,6 +5,7 @@
 
 ## To Flask
 ` qmk flash -c -kb ferris/sweep -km default -e CONVERT_TO=rp2040_ce`
+Uses `keyboards/ferris/sweep/keymaps/default/keymap.json`
 
 ## Mount RP2040 (BOOTSEL)
 Hold BOOTSEL while plugging in, then check it shows up:
